@@ -25,7 +25,7 @@ function SocialLinks() {
   return (
     <div className="flex text-lg gap-3.5 float-right transition-opacity duration-300 hover:opacity-90">
       <SocialLink href={socialLinks.twitter} icon={FaXTwitter} />
-      <SocialLink href={""} icon={FaGithub} />
+      <SocialLink href={socialLinks.github} icon={FaGithub} />
       <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} />
       <SocialLink href={socialLinks.email} icon={TbMailFilled} />
 
