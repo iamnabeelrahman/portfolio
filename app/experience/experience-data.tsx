@@ -10,7 +10,7 @@ export interface Experience {
 
 export const experiences: Experience[] =[
   {
-    title: "Full-Stack Developer (Apprenticeship)",
+    title: "Full-Stack Developer",
     company: "SaralGroups™ – A Group of Trusted Venture Builders",
     duration: "April 2025 – Present",
     location: "Remote",
