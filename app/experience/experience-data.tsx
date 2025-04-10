@@ -8,40 +8,57 @@ export interface Experience {
   isCurrent: boolean; // Added to distinguish past vs. current experiences
 }
 
-export const experiences: Experience[] = [
+export const experiences: Experience[] =[
   {
-    title: "Software Developer",
-    company: "SaralTech™ - A Group of Trusted Venture Builders",
-    duration: "Jan 2025 - Present · 3 mos",
+    title: "Full-Stack Developer (Apprenticeship)",
+    company: "SaralGroups™ – A Group of Trusted Venture Builders",
+    duration: "April 2025 – Present",
     location: "Remote",
     description:
-      "Contributing to the development and optimization of innovative software solutions. Enhancing technical skills by working with modern tools and technologies in a collaborative environment. Participating in real-world projects to deliver scalable and impactful software applications. Gaining hands-on experience in software development, debugging, and deployment. Actively collaborating with the team to solve complex problems and achieve project goals.",
+      "Currently working as a full-stack developer apprentice, contributing to the development of scalable web applications and internal tools. Collaborating with cross-functional teams to build features, debug issues, and deploy applications in real-world environments. Gaining hands-on experience with modern frameworks, CMS platforms, and deployment workflows. Actively learning and implementing best practices for full-stack development.",
     skills: [
       "Node.js",
       "React.js",
       "Next.js",
-      "Content Management Systems (CMS)",
+      "Strapi (Headless CMS)",
       "TailwindCSS",
-      "Strapi",
+      "REST APIs",
     ],
     isCurrent: true,
   },
   {
-    title: "Web Developer (Project Lead)",
-    company: "Saral Startup School",
-    duration: "Sep 2024 - Feb 2025 · 6 mos",
+    title: "Software Developer Intern",
+    company: "SaralGroups™ – A Group of Trusted Venture Builders",
+    duration: "Jan 2025 – Mar 2025",
     location: "Remote",
     description:
-      "Led and actively contributed to the development of the Saral Events platform—an event management solution designed to simplify the experience for organizers and participants. Responsible for backend and full-stack development, feature planning, and ensuring a user-friendly interface tailored for efficiency and scalability.",
+      "Worked on internal and client-facing projects, focusing on the development, testing, and deployment of full-stack web applications. Contributed to backend logic, frontend UI components, and CMS integration. Collaborated in an agile environment to ship features efficiently while improving development workflows and debugging skills.",
+    skills: [
+      "Node.js",
+      "React.js",
+      "Next.js",
+      "Strapi",
+      "TailwindCSS",
+      "Git & GitHub",
+    ],
+    isCurrent: false,
+  },
+  {
+    title: "Web Developer & Project Lead",
+    company: "Saral Startup School",
+    duration: "Sep 2024 – Feb 2025",
+    location: "Remote",
+    description:
+      "Led the development of 'Saral Events', a full-stack event management platform. Oversaw backend architecture, CMS integration, and frontend design to ensure seamless organizer and user experiences. Coordinated with team members to plan features, integrate APIs, and optimize for performance and scalability.",
     skills: [
       "Node.js",
       "Next.js",
       "JavaScript",
       "SQL",
-      "Drizzle",
-      "TailwindCSS",
-      "Python",
+      "Drizzle ORM",
       "Strapi",
+      "TailwindCSS",
+      "Python (Scripting)",
     ],
     isCurrent: false,
   },
