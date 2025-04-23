@@ -17,14 +17,23 @@ export default function ContactMe() {
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Contact Me</h1>
 
-      <div className="prose prose-neutral dark:prose-invert max-w-2xl mx-auto py-6">
-        <p className="text-lg mb-6">
+      <div className="prose prose-neutral dark:prose-invert">
+        <p>
           I'm always open to new opportunities and collaborations. Feel free to
           reach out to me through any of the platforms below—I'd love to
-          connect!
+          connect!{" "}
         </p>
-
-        <ul className="space-y-4">
+        <ul className="space-y-2">
+          <li>
+            <a
+              href="https://github.com/iamnabeelrahman"
+              className="text-blue-600 hover:underline dark:text-blue-400"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub: iamnabeelrahman
+            </a>
+          </li>
           <li className="flex items-center">
             <span className="mr-2">GitHub:</span>
             <a
