@@ -22,13 +22,25 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        Hi, I’m a aspiring full-stack developer with a passion for creating innovative solutions.
+          Hi, I'm Nabeel Rahman — a full-time full-stack developer, currently
+          building scalable web applications and internal tools that make a real
+          impact.
         </p>
-        <p> I strive to achieve excellence in both technology and personal growth by continually honing my skills and dedicating myself to my work.
+        <p>
+          I work across the full tech stack — from architecting robust backend
+          APIs to crafting intuitive, responsive frontends. My day-to-day
+          includes building new features, solving real-world issues, deploying
+          scalable applications, and collaborating closely with cross-functional
+          teams. I'm hands-on with modern frameworks, CMS platforms, and
+          streamlined deployment workflows, delivering clean, maintainable, and
+          user-focused solutions in fast-paced environments — all while
+          constantly learning and pushing myself to grow..
         </p>
-        <p> I believe in combining dedication, hard work, and my technical expertise to build solutions that truly make a difference.
+
+        <p>
+          I believe in blending hard work, creativity, and purpose to craft
+          meaningful digital experiences that make a lasting difference.
         </p>
-       
       </div>
     </section>
   );
