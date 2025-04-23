@@ -15,53 +15,62 @@ export default function ContactMe() {
         />
       </a>
 
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Contact Me
-      </h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">Contact Me</h1>
 
-      <div className="prose prose-neutral dark:prose-invert">
-        <p>
-        I'm always open to new opportunities and collaborations. Feel free to reach out to me through any of the platforms below—I'd love to connect!        </p>
-        <ul className="space-y-2">
-          <li>
+      <div className="prose prose-neutral dark:prose-invert max-w-2xl mx-auto py-6">
+        <p className="text-lg mb-6">
+          I'm always open to new opportunities and collaborations. Feel free to
+          reach out to me through any of the platforms below—I'd love to
+          connect!
+        </p>
+
+        <ul className="space-y-4">
+          <li className="flex items-center">
+            <span className="mr-2">GitHub:</span>
             <a
               href="https://github.com/iamnabeelrahman"
               className="text-blue-600 hover:underline dark:text-blue-400"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub: iamnabeelrahman
+              iamnabeelrahman
             </a>
           </li>
-          <li>
+
+          <li className="flex items-center">
+            <span className="mr-2">LinkedIn:</span>
             <a
               href="https://www.linkedin.com/in/iamnabeelrahman"
               className="text-blue-600 hover:underline dark:text-blue-400"
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn: Nabeel Rahman
+              Nabeel Rahman
             </a>
-          <li>
+          </li>
+
+          <li className="flex items-center">
+            <span className="mr-2">Twitter:</span>
             <a
               href="https://x.com/IamNabeelRahman"
               className="text-blue-600 hover:underline dark:text-blue-400"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Twitter: @IamNabeelRahman
+              @IamNabeelRahman
             </a>
           </li>
-          <li>
+
+          <li className="flex items-center">
+            <span className="mr-2">Email:</span>
             <a
               href="mailto:nabeel.r.work@gmail.com"
               className="text-blue-600 hover:underline dark:text-blue-400"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Email: nabeel.r.work@gmail.com
+              nabeel.r.work@gmail.com
             </a>
-          </li>
           </li>
         </ul>
       </div>
