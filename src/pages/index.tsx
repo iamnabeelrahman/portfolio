@@ -42,7 +42,7 @@ import { FaRegCalendarDays, FaXTwitter } from 'react-icons/fa6'
 import { IoMdCheckmarkCircleOutline } from 'react-icons/io'
 import { IoLogoJavascript } from 'react-icons/io5'
 import { RiNextjsFill } from 'react-icons/ri'
-import { SiDrizzle, SiExpress,  SiPrisma } from 'react-icons/si'
+import { SiDrizzle, SiExpress, SiPrisma } from 'react-icons/si'
 
 export default function Home() {
   return (
@@ -66,9 +66,9 @@ export default function Home() {
           <About />
         </Box>
         <Stack gap={10} flex={1}>
-          <TechStack />
-          <Projects />
           <Work />
+          <Projects />
+          <TechStack />
           <Contact />
         </Stack>
       </Flex>
@@ -293,18 +293,34 @@ const Work = () => {
 
 const Contact = () => {
   return (
-    <Stack gap={6} marginBottom={10} id="contact">
-      <Heading as={'h2'} fontSize={{ base: 'xl', md: '2xl' }} color={'brand'}>
-        Contact
+    <Stack  gap={6} mb={12} id="contact" align="center" textAlign="center">
+      <Heading as="h2" fontSize={{ base: '2xl', md: '3xl' }} color="brand">
+        Let’s Connect
       </Heading>
-      <Box borderWidth={'1px'} p={5} borderRadius={'lg'} borderColor={'gray.subtel'}>
-        <Text textAlign={'center'} fontSize={'sm'} color={'brand.secondary'}>
-          Best way to reach me is through:{' '}
+
+      <Box
+        w="full"
+        maxW="lg"
+        borderWidth="1px"
+        p={{ base: 5, md: 8 }}
+        borderRadius="2xl"
+        borderColor="gray.300"
+        bg="bg"
+        shadow="md"
+      >
+        <Text fontSize={{ base: 'sm', md: 'md' }} color="gray.600" mb={3}>
+          Whether you have a question, want to collaborate, or just want to say hi I’d love to hear
+          from you!
+        </Text>
+
+        <Text fontWeight="medium" fontSize="sm">
+          Email me at:{' '}
           <CNLink
-            _hover={{ color: 'brand' }}
-            color={'brand.secondary'}
-            _focus={{ boxShadow: 'none' }}
             href={siteConfig.contact.emailHref}
+            _hover={{ color: 'brand' }}
+            _focus={{ boxShadow: 'none' }}
+            color="brand"
+            fontWeight="normal"
           >
             {siteConfig.contact.email}
           </CNLink>
